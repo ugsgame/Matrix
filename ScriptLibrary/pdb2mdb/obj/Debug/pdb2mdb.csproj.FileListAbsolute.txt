@@ -1,0 +1,13 @@
+F:\WorkSpace\CryEngine3.4.3\Code\CryMono\Build\Bin32\Plugins\CryMono\Mono\bin\pdb2mdb.dll
+F:\WorkSpace\CryEngine3.4.3\Code\CryMono\Build\Bin32\Plugins\CryMono\Mono\bin\pdb2mdb.pdb
+F:\WorkSpace\CryEngine3.4.3\Code\CryMono\Utils\pdb2mdb\obj\Debug\pdb2mdb.csprojResolveAssemblyReference.cache
+F:\WorkSpace\CryEngine3.4.3\Code\CryMono\Utils\pdb2mdb\obj\Debug\pdb2mdb.dll
+F:\WorkSpace\CryEngine3.4.3\Code\CryMono\Utils\pdb2mdb\obj\Debug\pdb2mdb.pdb
+E:\Dev\Matrix_v0.0.2\ScriptLibrary\pdb2mdb\obj\Debug\pdb2mdb.pdb
+E:\Dev\Matrix_v0.0.2\Build\Bin32\Plugins\CryMono\Mono\bin\pdb2mdb.dll
+E:\Dev\Matrix_v0.0.2\Build\Bin32\Plugins\CryMono\Mono\bin\pdb2mdb.pdb
+E:\Dev\Matrix_v0.0.2\Matrix\Resources\Script\pdb2mdb.pdb
+E:\Dev\Matrix_v0.0.2\Matrix\Resources\Script\pdb2mdb.dll
+E:\Dev\Matrix_v0.0.2\ScriptLibrary\Mono\Bin\pdb2mdb.exe
+E:\Dev\Matrix_v0.0.2\ScriptLibrary\Mono\Bin\pdb2mdb.pdb
+E:\Dev\Matrix_v0.0.2\ScriptLibrary\pdb2mdb\obj\Debug\pdb2mdb.exe
