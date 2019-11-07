@@ -1,0 +1,48 @@
+AnimResManager:
+
+2				tag:	idSize = ( (tag & 0x8000) ? 2 : 1 )
+				count = tag & 0x7FFF;
+2				realCount
+
+for [0, realCount)
+	AnimRes
+end for
+
+
+
+
+AimRes:
+
+idSize			id
+1				frameCount
+
+for [0, frameCount)
+	Frame
+endfor
+
+
+
+
+
+Frame:
+
+2				interval
+1				spriteCount
+
+for [0, spriteCount)
+	Sprite
+endfor
+
+
+
+
+
+Sprite:
+
+1				tag: 	flip = (tag & 0x1)
+						imageIdSize = (flag & 0x2) ? 2 : 1
+						xSize = (tag & 0x4) ? 2 : 1
+						ySize = (tag & 0x8) ? 2 : 1
+imageIdSize		imageId
+xSize			x:	有正负值
+ySize			y:	有正负值

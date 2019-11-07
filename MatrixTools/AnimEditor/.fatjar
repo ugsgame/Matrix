@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Sep 17 14:04:02 CST 2012
+onejar.license.required=false
+manifest.classpath=lib/substance.jar lib/dom4j-1.6.1.jar
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=C\:\\Documents and Settings\\Administrator\\\u684C\u9762\\ani_edit\\xmg_edit.jar
+manifest.mergeall=true
+manifest.mainclass=editor.MainFrame
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=
+excludes=<jar|dom4j-1.6.1.jar>;<jar|substance.jar>;<jar|rt.jar>
+includes=

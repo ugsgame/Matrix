@@ -1,0 +1,11 @@
+ListData
+
+2			tag:	idSize = ( (tag & 0x8000) ? 2 : 1 )
+					count = tag & 0x7FFF;
+2			realCount
+for [0, realCount)
+	idSize		id
+	1			nameSize
+	nameSize	name
+endfor
+					

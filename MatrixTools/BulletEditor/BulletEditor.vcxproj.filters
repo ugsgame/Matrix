@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{0ff54922-e351-4a04-9b28-95e7a260211a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{5130751f-aaa7-4f06-8273-148474d9e33b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{3ff2b28a-fb0f-4214-89a0-d295903a11cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Widgets">
+      <UniqueIdentifier>{64dfeb66-6c2a-48f6-99a4-b395a69f6a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\BulletSystem">
+      <UniqueIdentifier>{f7863f46-973f-40e7-b6cf-2e43d84536ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BulletEditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BulletEditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_BulletEditor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCRenderWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCRenderWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\QcApplication.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CCRenderWidget.cpp">
+      <Filter>Classes\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EmitterSettingWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EmitterSettingWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\EmitterSettingWidget.cpp">
+      <Filter>Classes\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\ResourcesBrowserWidget.cpp">
+      <Filter>Classes\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ResourcesBrowserWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ResourcesBrowserWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\EmitterConfig.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\MainScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletSystem\BulletDisplay.cpp">
+      <Filter>Classes\BulletSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletSystem\BulletEmitter.cpp">
+      <Filter>Classes\BulletSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\DisplaySettingWidget.cpp">
+      <Filter>Classes\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DisplaySettingWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DisplaySettingWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\AtlasListWidget.cpp">
+      <Filter>Classes\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AtlasListWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AtlasListWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\EditorConfig.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletSystem\BulletSystem.cpp">
+      <Filter>Classes\BulletSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\FramesListWidget.cpp">
+      <Filter>Classes\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FramesListWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FramesListWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\DecorateSettingWidget.cpp">
+      <Filter>Classes\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DecorateSettingWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DecorateSettingWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\ObjectsWidget.cpp">
+      <Filter>Classes\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ObjectsWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ObjectsWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="BulletEditor.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BulletEditor.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DisplaySetting.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EmitterSetting.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\CCRenderWidget.h">
+      <Filter>Classes\Widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\EmitterSettingWidget.h">
+      <Filter>Classes\Widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BulletEditor.h">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ResourcesBrowser.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\ResourcesBrowserWidget.h">
+      <Filter>Classes\Widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\DisplaySettingWidget.h">
+      <Filter>Classes\Widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\AtlasListWidget.h">
+      <Filter>Classes\Widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_ResourcesBrowser.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_BulletEditor.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_DisplaySetting.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_EmitterSetting.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BulletSystem\BulletDisplay.h">
+      <Filter>Classes\BulletSystem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BulletSystem\BulletEmitter.h">
+      <Filter>Classes\BulletSystem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BulletSystem\BulletSystem.h">
+      <Filter>Classes\BulletSystem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\Common.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\EditorConfig.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\EmitterConfig.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\MainScene.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\QcApplication.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\FramesListWidget.h">
+      <Filter>Classes\Widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DecorateSetting.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\DecorateSettingWidget.h">
+      <Filter>Classes\Widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ObjectsView.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\ObjectsWidget.h">
+      <Filter>Classes\Widgets</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BulletEditor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_DecorateSetting.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ObjectsView.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

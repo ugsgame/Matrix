@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: editor.MainFrame
+Class-Path: lib/substance.jar lib/dom4j-1.6.1.jar lib/laf-plugin.jar lib/laf-widget.jar lib/trident.jar
+
