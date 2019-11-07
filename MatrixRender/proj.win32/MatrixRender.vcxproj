@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile_Debug|Win32">
+      <Configuration>Profile_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile_Release|Win32">
+      <Configuration>Profile_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8883AF80-EE2F-4587-9407-95E2750356DE}</ProjectGuid>
+    <RootNamespace>MatrixRender</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile_Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>RenderSystem.dir\Release\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile_Debug|Win32'">
+    <OutDir>Profile_Debug\</OutDir>
+    <IntDir>RenderSystem.dir\Profile_Debug\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile_Release|Win32'">
+    <OutDir>Profile_Release\</OutDir>
+    <IntDir>RenderSystem.dir\Profile_Release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\dxsdk\Include;D:\Dev\GenesisSource\genesis-3d_src\Engine;D:\Dev\GenesisSource\genesis-3d_src\Engine\foundation;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\OpenGLES2.0\ARM\include;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\boostWraper;D:\Dev\Matrix_v0.0.2\MatrixRender\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName />
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>$(projectdir)..\..\Externs\dxsdk\Include;$(projectdir)..\..\Externs\OpenGLES2.0\ARM\include;$(projectdir)..\..\MatrixCore\Classes;$(projectdir)..\..\MatrixRender\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__WIN32__;WIN32;NT_PLUGIN;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc90.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__WIN32__;WIN32;NT_PLUGIN;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\dxsdk\Include;D:\Dev\GenesisSource\genesis-3d_src\Engine;D:\Dev\GenesisSource\genesis-3d_src\Engine\foundation;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\OpenGLES2.0\ARM\include;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\boostWraper;D:\Dev\Matrix_v0.0.2\MatrixRender\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\dxsdk\Include;D:\Dev\GenesisSource\genesis-3d_src\Engine;D:\Dev\GenesisSource\genesis-3d_src\Engine\foundation;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\OpenGLES2.0\ARM\include;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\boostWraper;D:\Dev\Matrix_v0.0.2\MatrixRender\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName />
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\dxsdk\Include;D:\Dev\GenesisSource\genesis-3d_src\Engine;D:\Dev\GenesisSource\genesis-3d_src\Engine\foundation;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\OpenGLES2.0\ARM\include;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\boostWraper;D:\Dev\Matrix_v0.0.2\MatrixRender\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WIN32__;WIN32;NT_PLUGIN;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:\Dev\GenesisSource\genesis-3d_src\bin\win32\Release/RenderSystem.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WIN32__;WIN32;NT_PLUGIN;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\dxsdk\Include;D:\Dev\GenesisSource\genesis-3d_src\Engine;D:\Dev\GenesisSource\genesis-3d_src\Engine\foundation;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\OpenGLES2.0\ARM\include;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\boostWraper;D:\Dev\Matrix_v0.0.2\MatrixRender\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>D:\Dev\GenesisSource\genesis-3d_src\bin\win32\Release\RenderSystem.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile_Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\dxsdk\Include;D:\Dev\GenesisSource\genesis-3d_src\Engine;D:\Dev\GenesisSource\genesis-3d_src\Engine\foundation;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\OpenGLES2.0\ARM\include;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\boostWraper;D:\Dev\Matrix_v0.0.2\MatrixRender\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName />
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\dxsdk\Include;D:\Dev\GenesisSource\genesis-3d_src\Engine;D:\Dev\GenesisSource\genesis-3d_src\Engine\foundation;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\OpenGLES2.0\ARM\include;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\boostWraper;D:\Dev\Matrix_v0.0.2\MatrixRender\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;__PROFILER__;_DEBUG;__WIN32__;WIN32;NT_PLUGIN;CMAKE_INTDIR="Profile_Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AssemblerListingLocation>Profile_Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:\Dev\GenesisSource\genesis-3d_src\bin\win32\Profile_Debug/RenderSystem.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;__PROFILER__;_DEBUG;__WIN32__;WIN32;NT_PLUGIN;CMAKE_INTDIR="Profile_Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\dxsdk\Include;D:\Dev\GenesisSource\genesis-3d_src\Engine;D:\Dev\GenesisSource\genesis-3d_src\Engine\foundation;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\OpenGLES2.0\ARM\include;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\boostWraper;D:\Dev\Matrix_v0.0.2\MatrixRender\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>D:\Dev\GenesisSource\genesis-3d_src\bin\win32\Profile_Debug\RenderSystem.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile_Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\dxsdk\Include;D:\Dev\GenesisSource\genesis-3d_src\Engine;D:\Dev\GenesisSource\genesis-3d_src\Engine\foundation;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\OpenGLES2.0\ARM\include;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\boostWraper;D:\Dev\Matrix_v0.0.2\MatrixRender\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName />
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\dxsdk\Include;D:\Dev\GenesisSource\genesis-3d_src\Engine;D:\Dev\GenesisSource\genesis-3d_src\Engine\foundation;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\OpenGLES2.0\ARM\include;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\boostWraper;D:\Dev\Matrix_v0.0.2\MatrixRender\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;__PROFILER__;NDEBUG;__WIN32__;WIN32;NT_PLUGIN;CMAKE_INTDIR="Profile_Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AssemblerListingLocation>Profile_Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:\Dev\GenesisSource\genesis-3d_src\bin\win32\Profile_Release/RenderSystem.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;__PROFILER__;NDEBUG;__WIN32__;WIN32;NT_PLUGIN;CMAKE_INTDIR="Profile_Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\dxsdk\Include;D:\Dev\GenesisSource\genesis-3d_src\Engine;D:\Dev\GenesisSource\genesis-3d_src\Engine\foundation;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\OpenGLES2.0\ARM\include;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs;D:\Dev\GenesisSource\genesis-3d_src\Engine\extlibs\boostWraper;D:\Dev\Matrix_v0.0.2\MatrixRender\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>D:\Dev\GenesisSource\genesis-3d_src\bin\win32\Profile_Release\RenderSystem.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\RenderMessageProtocol.cc" />
+    <ClCompile Include="..\Classes\RenderSystem.cc" />
+    <ClCompile Include="..\Classes\RenderSystemMessageHandler.cc" />
+    <ClCompile Include="..\Classes\RenderSystemThreadHandler.cc" />
+    <ClCompile Include="..\Classes\stdneb.cc" />
+    <ClCompile Include="..\Classes\base\BufferData.cc" />
+    <ClCompile Include="..\Classes\base\GPUProgram.cc" />
+    <ClCompile Include="..\Classes\base\IndexBuffer.cc" />
+    <ClCompile Include="..\Classes\base\MultipleRenderTarget.cc" />
+    <ClCompile Include="..\Classes\base\PixelFormat.cc" />
+    <ClCompile Include="..\Classes\base\PrimitiveGroup.cc" />
+    <ClCompile Include="..\Classes\base\RenderCommandType.cc" />
+    <ClCompile Include="..\Classes\base\RenderDevice.cc" />
+    <ClCompile Include="..\Classes\base\RenderDeviceTypes.cc" />
+    <ClCompile Include="..\Classes\base\RenderDisplay.cc" />
+    <ClCompile Include="..\Classes\base\RenderResource.cc" />
+    <ClCompile Include="..\Classes\base\RenderStateDesc.cc" />
+    <ClCompile Include="..\Classes\base\RenderTarget.cc" />
+    <ClCompile Include="..\Classes\base\RenderWindow.cc" />
+    <ClCompile Include="..\Classes\base\Texture.cc" />
+    <ClCompile Include="..\Classes\base\VertexBuffer.cc" />
+    <ClCompile Include="..\Classes\base\VertexComponent.cc" />
+    <ClCompile Include="..\Classes\base\VertexLayout.cc" />
+    <ClCompile Include="..\Classes\d3d9\D3D9Types.cc" />
+    <ClCompile Include="..\Classes\d3d9\D3D9Window.cc" />
+    <ClCompile Include="..\Classes\d3d9\GPUProgramD3D9.cc" />
+    <ClCompile Include="..\Classes\d3d9\GraphicCardCapabilityD3D9.cc" />
+    <ClCompile Include="..\Classes\d3d9\IndexBufferD3D9.cc" />
+    <ClCompile Include="..\Classes\d3d9\MRTD3D9.cc" />
+    <ClCompile Include="..\Classes\d3d9\PrimitiveGroupD3D9.cc" />
+    <ClCompile Include="..\Classes\d3d9\RenderDeviceD3D9.cc" />
+    <ClCompile Include="..\Classes\d3d9\RenderTargetD3D9.cc" />
+    <ClCompile Include="..\Classes\d3d9\TextureD3D9.cc" />
+    <ClCompile Include="..\Classes\d3d9\VertexBufferD3D9.cc" />
+    <ClCompile Include="..\Classes\d3d9\VertexLayoutD3D9.cc" />
+    <ClCompile Include="..\Classes\null\RenderDeviceNull.cc" />
+    <ClCompile Include="..\Classes\gles\EGLContext.cc" />
+    <ClCompile Include="..\Classes\gles\GLESTypes.cc" />
+    <ClCompile Include="..\Classes\gles\GlesWindow.cc" />
+    <ClCompile Include="..\Classes\gles\GPUProgramGLES.cc" />
+    <ClCompile Include="..\Classes\gles\GraphicCardCapabilityGLES.cc" />
+    <ClCompile Include="..\Classes\gles\IndexBufferObjectGLES.cc" />
+    <ClCompile Include="..\Classes\gles\MRTGLES.cc" />
+    <ClCompile Include="..\Classes\gles\OpenGLES.cc" />
+    <ClCompile Include="..\Classes\gles\PrimitiveGroupObjectGLES.cc" />
+    <ClCompile Include="..\Classes\gles\RenderDeviceGLES.cc" />
+    <ClCompile Include="..\Classes\gles\RenderTargetGLES.cc" />
+    <ClCompile Include="..\Classes\gles\TextureGLES.cc" />
+    <ClCompile Include="..\Classes\gles\VertexBufferObjectGLES.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\RenderMessageProtocol.h" />
+    <ClInclude Include="..\Classes\RenderSystem.h" />
+    <ClInclude Include="..\Classes\RenderSystemThreadHandler.h" />
+    <ClInclude Include="..\Classes\stdneb.h" />
+    <ClInclude Include="..\Classes\base\BufferData.h" />
+    <ClInclude Include="..\Classes\base\GPUProgram.h" />
+    <ClInclude Include="..\Classes\base\GraphicCardCapability.h" />
+    <ClInclude Include="..\Classes\base\IndexBuffer.h" />
+    <ClInclude Include="..\Classes\base\MultipleRenderTarget.h" />
+    <ClInclude Include="..\Classes\base\PixelFormat.h" />
+    <ClInclude Include="..\Classes\base\PixelFormatDesc.h" />
+    <ClInclude Include="..\Classes\base\PrimitiveGroup.h" />
+    <ClInclude Include="..\Classes\base\RenderCommandType.h" />
+    <ClInclude Include="..\Classes\base\RenderDevice.h" />
+    <ClInclude Include="..\Classes\base\RenderDeviceTypes.h" />
+    <ClInclude Include="..\Classes\base\RenderDisplay.h" />
+    <ClInclude Include="..\Classes\base\RenderResource.h" />
+    <ClInclude Include="..\Classes\base\RenderStateDesc.h" />
+    <ClInclude Include="..\Classes\base\RenderTarget.h" />
+    <ClInclude Include="..\Classes\base\RenderWindow.h" />
+    <ClInclude Include="..\Classes\base\Texture.h" />
+    <ClInclude Include="..\Classes\base\VertexBuffer.h" />
+    <ClInclude Include="..\Classes\base\VertexComponent.h" />
+    <ClInclude Include="..\Classes\base\VertexLayout.h" />
+    <ClInclude Include="..\Classes\config\RenderDeviceConfig.h" />
+    <ClInclude Include="..\Classes\d3d9\D3D9Types.h" />
+    <ClInclude Include="..\Classes\d3d9\D3D9Window.h" />
+    <ClInclude Include="..\Classes\d3d9\GPUProgramD3D9.h" />
+    <ClInclude Include="..\Classes\d3d9\IndexBufferD3D9.h" />
+    <ClInclude Include="..\Classes\d3d9\MRTD3D9.h" />
+    <ClInclude Include="..\Classes\d3d9\PrimitiveGroupD3D9.h" />
+    <ClInclude Include="..\Classes\d3d9\RenderDeviceD3D9.h" />
+    <ClInclude Include="..\Classes\d3d9\RenderTargetD3D9.h" />
+    <ClInclude Include="..\Classes\d3d9\TextureD3D9.h" />
+    <ClInclude Include="..\Classes\d3d9\VertexBufferD3D9.h" />
+    <ClInclude Include="..\Classes\d3d9\VertexLayoutD3D9.h" />
+    <ClInclude Include="..\Classes\null\RenderDeviceNull.h" />
+    <ClInclude Include="..\Classes\gles\EGLContext.h" />
+    <ClInclude Include="..\Classes\gles\GLESTypes.h" />
+    <ClInclude Include="..\Classes\gles\GlesWindow.h" />
+    <ClInclude Include="..\Classes\gles\GPUProgramGLES.h" />
+    <ClInclude Include="..\Classes\gles\IndexBufferObjectGLES.h" />
+    <ClInclude Include="..\Classes\gles\MRTGLES.h" />
+    <ClInclude Include="..\Classes\gles\OpenGLES.h" />
+    <ClInclude Include="..\Classes\gles\PrimitiveGroupObjectGLES.h" />
+    <ClInclude Include="..\Classes\gles\RenderDeviceGLES.h" />
+    <ClInclude Include="..\Classes\gles\RenderTargetGLES.h" />
+    <ClInclude Include="..\Classes\gles\TextureGLES.h" />
+    <ClInclude Include="..\Classes\gles\VertexBufferObjectGLES.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

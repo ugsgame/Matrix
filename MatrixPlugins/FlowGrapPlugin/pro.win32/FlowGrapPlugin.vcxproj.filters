@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{544c7df6-37cf-4f5d-ad6e-5d5973d52d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\FlowSystem">
+      <UniqueIdentifier>{14c9312e-bfc1-4894-8e89-de0003f5c141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\FlowSystem\Node">
+      <UniqueIdentifier>{921c4f41-3dae-467f-bf5d-d1e50e6aab28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\FlowSystem\common">
+      <UniqueIdentifier>{86aa80eb-f4aa-4899-88e3-63e0e217052b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\tinyxml2">
+      <UniqueIdentifier>{6bcd49ed-d5f9-4d0e-83ed-ff86b65525c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\FlowGrapPlugin.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FlowSystem\FlowSystem.cpp">
+      <Filter>Classes\FlowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FlowSystem\FlowData.cpp">
+      <Filter>Classes\FlowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tinyxml2\tinyxml2.cpp">
+      <Filter>Classes\tinyxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FlowSystem\FlowGraph.cpp">
+      <Filter>Classes\FlowSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\FlowGrapPlugin.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FlowSystem\FlowSystem.h">
+      <Filter>Classes\FlowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FlowSystem\FlowData.h">
+      <Filter>Classes\FlowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FlowSystem\FlowConfig.h">
+      <Filter>Classes\FlowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FlowSystem\FlowNode.h">
+      <Filter>Classes\FlowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FlowSystem\smartptr.h">
+      <Filter>Classes\FlowSystem\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FlowSystem\ConfigurableVariant.h">
+      <Filter>Classes\FlowSystem\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FlowSystem\Typelist.h">
+      <Filter>Classes\FlowSystem\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FlowSystem\TypelistUtils.h">
+      <Filter>Classes\FlowSystem\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FlowSystem\TypeInfo_decl.h">
+      <Filter>Classes\FlowSystem\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FlowSystem\IFlowSystem.h">
+      <Filter>Classes\FlowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tinyxml2\tinyxml2.h">
+      <Filter>Classes\tinyxml2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FlowSystem\FlowGraph.h">
+      <Filter>Classes\FlowSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

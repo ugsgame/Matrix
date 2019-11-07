@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_UnityDebuger|Win32">
+      <Configuration>Debug_UnityDebuger</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{121792F3-5F37-45F8-8299-3F7931471C21}</ProjectGuid>
+    <RootNamespace>mooger_sdk</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_UnityDebuger|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_UnityDebuger|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_UnityDebuger|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/wd4819 /wd4251 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(projectdir)..\..\cocos2d-x-2.2.3\cocos2dx;$(projectdir)..\..\cocos2d-x-2.2.3\cocos2dx\include;$(projectdir)..\..\cocos2d-x-2.2.3\cocos2dx\kazmath\include;$(projectdir)..\..\cocos2d-x-2.2.3\cocos2dx\platform\win32;$(projectdir)..\..\cocos2d-x-2.2.3\cocos2dx\platform\third_party\win32\ogles;$(ProjectDir)..\..\cocos2d-x-2.2.3\cocos2dx\platform\third_party\win32\pthread;$(projectdir)..\..\cocos2d-x-2.2.3\CocosDenshion\include;$(ProjectDir)..\..\cocos2d-x-2.2.3\external;$(projectdir)..\..\cocos2d-x-2.2.3\extensions;$(projectdir)..\..\cocos2d-x-2.2.3\extensions\network;$(projectdir)..\..\MatrixMono\Headers;..\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CC_ENABLE_BOX2D_INTEGRATION=1;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_UnityDebuger|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/wd4819 /wd4251 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(projectdir)..\..\cocos2d-x-2.2.3\cocos2dx;$(projectdir)..\..\cocos2d-x-2.2.3\cocos2dx\include;$(projectdir)..\..\cocos2d-x-2.2.3\cocos2dx\kazmath\include;$(projectdir)..\..\cocos2d-x-2.2.3\cocos2dx\platform\win32;$(projectdir)..\..\cocos2d-x-2.2.3\cocos2dx\platform\third_party\win32\ogles;$(ProjectDir)..\..\cocos2d-x-2.2.3\external;$(projectdir)..\..\cocos2d-x-2.2.3\extensions;$(projectdir)..\..\cocos2d-x-2.2.3\extensions\network;$(projectdir)..\..\MatrixMono\Headers;..\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CC_ENABLE_BOX2D_INTEGRATION=1;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(projectdir)..\..\cocos2d-x-2.2.3\cocos2dx;$(projectdir)..\..\cocos2d-x-2.2.3\cocos2dx\include;$(projectdir)..\..\cocos2d-x-2.2.3\cocos2dx\kazmath\include;$(projectdir)..\..\cocos2d-x-2.2.3\cocos2dx\platform\win32;$(projectdir)..\..\cocos2d-x-2.2.3\cocos2dx\platform\third_party\win32\ogles;$(projectdir)..\..\cocos2d-x-2.2.3\CocosDenshion\include;$(ProjectDir)..\..\cocos2d-x-2.2.3\external;$(projectdir)..\..\cocos2d-x-2.2.3\extensions;$(projectdir)..\..\cocos2d-x-2.2.3\extensions\network;$(projectdir)..\..\MatrixMono\Headers;..\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\CollistionSystem\Collistion.cpp" />
+    <ClCompile Include="..\Classes\CollistionSystem\CollistionListener.cpp" />
+    <ClCompile Include="..\Classes\Config\MatrixConfig.cpp" />
+    <ClCompile Include="..\Classes\FileService\JsonHelper.cpp" />
+    <ClCompile Include="..\Classes\MatrixScript.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\MCAction.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\MCActionInstant.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\MCActionInterval.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\MCScheduleNode.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCAnimation.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCAnimationFrame.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCClippingNode.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCLabel.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCProgressTimer.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCScheduler.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCSpriteBatchNode.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCSpriteFrame.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCSpriteFrameCache.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCTexture2D.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCTextureCache.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_ScheduleNode.cpp" />
+    <ClCompile Include="..\Classes\MCocosDenshion\MatrixCocosDenshion.cpp" />
+    <ClCompile Include="..\Classes\MCocosDenshion\Native\ScriptBind_AudioEngine.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\ArmatureCollistionSystem.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_SceneReader.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\OBB.cpp" />
+    <ClCompile Include="..\Classes\MRichControls\MatrixRichControls.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MRichControls\Native\ScriptBind_CCLabelHTML.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MRichControls\Native\ScriptBind_FontCatalog.cpp" />
+    <ClCompile Include="..\Classes\MRichControls\Native\ScriptBind_FontFactory.cpp" />
+    <ClCompile Include="..\Classes\Native\ScriptBind_ActorSystem.cpp" />
+    <ClCompile Include="..\Classes\Native\ScriptBind_CollistionSystem.cpp" />
+    <ClCompile Include="..\Classes\Native\ScriptBind_NetHelper.cpp" />
+    <ClCompile Include="..\Classes\Native\ScriptBind_System.cpp" />
+    <ClCompile Include="..\Classes\ActorSystem\ActorManager.cpp" />
+    <ClCompile Include="..\Classes\ActorSystem\GameActor.cpp" />
+    <ClCompile Include="..\Classes\Component\Component.cpp" />
+    <ClCompile Include="..\Classes\Component\ComponentContainer.cpp" />
+    <ClCompile Include="..\Classes\CollistionSystem\Collider.cpp" />
+    <ClCompile Include="..\Classes\CollistionSystem\CollistionDebugDraw.cpp" />
+    <ClCompile Include="..\Classes\CollistionSystem\CollistionSystem.cpp" />
+    <ClCompile Include="..\Classes\CollistionSystem\Rigidbody.cpp" />
+    <ClCompile Include="..\Classes\CollistionSystem\BoxCollider.cpp" />
+    <ClCompile Include="..\Classes\Entity\Entity.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\MCLayer.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\MCScene.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\MCScriptHelper.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCAction.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCDirector.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCFileUtils.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCLayer.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCNode.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCNodeRBGA.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCObject.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCParticleSystem.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCScene.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCSprite.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_EffectNode.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\EffectNode\GrayNode.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\EffectNode\ShaderNode.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\ArmatureContactListener.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\MatrixCocoStudio.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\MSUILayer.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_CCArmAnim.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_CCArmature.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_CCArmDataManager.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_CCBone.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_GUIReader.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UIButton.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UICheckBox.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UIImageView.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UILabel.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UILabelAtlas.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UILabelBMFont.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UILayer.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UILayout.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UILayoutParameter.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UILoadingBar.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UISlider.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UITextField.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UIWidget.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UIListView.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UIPageView.cpp" />
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UIScrollView.cpp" />
+    <ClCompile Include="..\Classes\Mooger\MoogerAnim.cpp" />
+    <ClCompile Include="..\Classes\Mooger\MoogerMap.cpp" />
+    <ClCompile Include="..\Classes\Mooger\Native\ScriptBind_Mooger.cpp" />
+    <ClCompile Include="..\Classes\Math\Size.cpp" />
+    <ClCompile Include="..\Classes\MatrixScriptHelper.cpp" />
+    <ClCompile Include="..\Classes\Platform\Android\AndroidJNI.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Platform\Android\AndroidJNIHelper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Platform\Android\NetHelper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Platform\Android\SystemFeature.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Platform\NativeBridge.cpp" />
+    <ClCompile Include="..\Classes\Platform\Win32\NetHelper.cpp" />
+    <ClCompile Include="..\Classes\Platform\Win32\SystemFeature.cpp" />
+    <ClCompile Include="..\Classes\PluginSystem\MatrixPlugin.cpp" />
+    <ClCompile Include="..\Classes\PluginSystem\PluginManager.cpp" />
+    <ClCompile Include="..\Classes\PluginSystem\PluginSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\CollistionSystem\Collistion.h" />
+    <ClInclude Include="..\Classes\CollistionSystem\CollistionListener.h" />
+    <ClInclude Include="..\Classes\Config\MatrixConfig.h" />
+    <ClInclude Include="..\Classes\FileService\JsonHelper.h" />
+    <ClInclude Include="..\Classes\FileService\Json\document.h" />
+    <ClInclude Include="..\Classes\FileService\Json\filestream.h" />
+    <ClInclude Include="..\Classes\FileService\Json\internal\pow10.h" />
+    <ClInclude Include="..\Classes\FileService\Json\internal\stack.h" />
+    <ClInclude Include="..\Classes\FileService\Json\internal\strfunc.h" />
+    <ClInclude Include="..\Classes\FileService\Json\prettywriter.h" />
+    <ClInclude Include="..\Classes\FileService\Json\rapidjson.h" />
+    <ClInclude Include="..\Classes\FileService\Json\reader.h" />
+    <ClInclude Include="..\Classes\FileService\Json\stringbuffer.h" />
+    <ClInclude Include="..\Classes\FileService\Json\writer.h" />
+    <ClInclude Include="..\Classes\MatrixExport.h" />
+    <ClInclude Include="..\Classes\MCocos2d\MCAction.h" />
+    <ClInclude Include="..\Classes\MCocos2d\MCActionInstant.h" />
+    <ClInclude Include="..\Classes\MCocos2d\MCActionInterval.h" />
+    <ClInclude Include="..\Classes\MCocos2d\MCScheduleNode.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCAnimation.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCAnimationFrame.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCClippingNode.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCLabel.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCProgressTimer.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCScheduler.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCSpriteBatchNode.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCSpriteFrame.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCSpriteFrameCache.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCTexture2D.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCTextureCache.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_ScheduleNode.h" />
+    <ClInclude Include="..\Classes\MCocosDenshion\MatrixCocosDenshion.h" />
+    <ClInclude Include="..\Classes\MCocosDenshion\Native\ScriptBind_AudioEngine.h" />
+    <ClInclude Include="..\Classes\MCocosDenshion\Native\ScriptBind_CocosDenshion.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\ArmatureCollistionSystem.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_SceneReader.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\OBB.h" />
+    <ClInclude Include="..\Classes\MRichControls\MatrixRichControls.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MRichControls\Native\ScriptBind_CCLabelHTML.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MRichControls\Native\ScriptBind_FontCatalog.h" />
+    <ClInclude Include="..\Classes\MRichControls\Native\ScriptBind_FontFactory.h" />
+    <ClInclude Include="..\Classes\MRichControls\Native\ScriptBind_RichControls.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Native\ScriptBind_ActorSystem.h" />
+    <ClInclude Include="..\Classes\Native\ScriptBind_CollistionSystem.h" />
+    <ClInclude Include="..\Classes\Native\ScriptBind_Matrix.h" />
+    <ClInclude Include="..\Classes\Native\ScriptBind_NetHelper.h" />
+    <ClInclude Include="..\Classes\Native\ScriptBind_System.h" />
+    <ClInclude Include="..\Classes\ActorSystem\ActorManager.h" />
+    <ClInclude Include="..\Classes\ActorSystem\GameActor.h" />
+    <ClInclude Include="..\Classes\Component\Component.h" />
+    <ClInclude Include="..\Classes\Component\ComponentContainer.h" />
+    <ClInclude Include="..\Classes\CollistionSystem\Collider.h" />
+    <ClInclude Include="..\Classes\CollistionSystem\CollistionDebugDraw.h" />
+    <ClInclude Include="..\Classes\CollistionSystem\CollistionSystem.h" />
+    <ClInclude Include="..\Classes\CollistionSystem\Rigidbody.h" />
+    <ClInclude Include="..\Classes\CollistionSystem\BoxCollider.h" />
+    <ClInclude Include="..\Classes\CollistionSystem\CircleCollider.h" />
+    <ClInclude Include="..\Classes\Entity\Entity.h" />
+    <ClInclude Include="..\Classes\Entity\Transform.h" />
+    <ClInclude Include="..\Classes\MCocos2d\MCLayer.h" />
+    <ClInclude Include="..\Classes\MCocos2d\MCScene.h" />
+    <ClInclude Include="..\Classes\MCocos2d\MCScriptHelper.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCAction.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCDirector.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCFileUtils.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCLayer.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCNode.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCNodeRBGA.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCObject.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCParticleSystem.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCScene.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCSprite.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_Cocos2d.h" />
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_EffectNode.h" />
+    <ClInclude Include="..\Classes\MCocos2d\EffectNode\GrayNode.h" />
+    <ClInclude Include="..\Classes\MCocos2d\EffectNode\ShaderNode.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\ArmatureContactListener.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\MatrixCocoStudio.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\MSUILayer.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_CocoStudio.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_CCArmAnim.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_CCArmature.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_CCArmDataManager.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_CCBone.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_CCDisplay.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_GUIReader.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UIButton.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UICheckBox.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UIImageView.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UILabel.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UILabelAtlas.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UILabelBMFont.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UILayer.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UILayout.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UILayoutParameter.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UILoadingBar.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UISlider.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UITextField.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UIWidget.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UIListView.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UIPageView.h" />
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UIScrollView.h" />
+    <ClInclude Include="..\Classes\Mooger\MoogerAnim.h" />
+    <ClInclude Include="..\Classes\Mooger\MoogerMap.h" />
+    <ClInclude Include="..\Classes\Mooger\Native\ScriptBind_Mooger.h" />
+    <ClInclude Include="..\Classes\Math\Size.h" />
+    <ClInclude Include="..\Classes\MatrixScript.h" />
+    <ClInclude Include="..\Classes\MatrixScriptHelper.h" />
+    <ClInclude Include="..\Classes\Platform\Android\AndroidJNI.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Platform\Android\AndroidJNIHelper.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Platform\NativeBridge.h" />
+    <ClInclude Include="..\Classes\Platform\NetHelper.h" />
+    <ClInclude Include="..\Classes\Platform\SystemFeature.h" />
+    <ClInclude Include="..\Classes\PluginSystem\MatrixPlugin.h" />
+    <ClInclude Include="..\Classes\PluginSystem\PluginManager.h" />
+    <ClInclude Include="..\Classes\PluginSystem\PluginSystem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Classes\ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

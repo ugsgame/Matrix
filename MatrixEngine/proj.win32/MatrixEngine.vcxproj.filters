@@ -1,0 +1,746 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Native">
+      <UniqueIdentifier>{6c139470-3f8d-4d8d-8320-2a074e243629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ActorSystem">
+      <UniqueIdentifier>{ebdad1e2-86e0-4dcd-abee-c893c9a2741e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{4e351c07-971d-4afd-acdc-50a031504125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CollistionSystem">
+      <UniqueIdentifier>{5d24330e-4947-46bd-956f-feae67c8a740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{5e38a516-8c3e-46ef-bbb4-4f475fb29498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs">
+      <UniqueIdentifier>{54902564-e50e-4a54-9b73-a45a6fbb826f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\MCocos2d">
+      <UniqueIdentifier>{94ba38c5-2715-441e-a93a-f1d017db68b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\MCocos2d\Native">
+      <UniqueIdentifier>{2b8ea084-6279-4a12-9864-f8b2f9037354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\MCocos2d\EffectNode">
+      <UniqueIdentifier>{f072c5e2-b657-48ac-b1c3-52a9acb46899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\MCocoStudio">
+      <UniqueIdentifier>{df4b2110-c49e-4871-bd0a-445cc647b753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\MCocoStudio\Native">
+      <UniqueIdentifier>{3be6154d-03e6-4027-809a-b5718fbea5b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\MCocoStudio\Native\Armature">
+      <UniqueIdentifier>{323ad8f8-5273-4120-a9b5-14f23ec559e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\MCocoStudio\Native\GUI">
+      <UniqueIdentifier>{71bb27d7-071f-4463-9a18-9487d617028d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\MCocoStudio\Native\GUI\ScrollWidget">
+      <UniqueIdentifier>{9a395dd3-6cd8-442a-b979-96fad7e842cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\MSpine">
+      <UniqueIdentifier>{13df7c4f-318c-4de7-aede-0ee0f59f4697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\Mooger">
+      <UniqueIdentifier>{3fad55c5-55f9-451c-a8d7-1a36ce3b8876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\Mooger\Native">
+      <UniqueIdentifier>{8a83f274-8015-4892-835f-0ebba96506bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{107e87a2-04ff-4d83-af2b-94919b52590a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{53c93b8b-fc90-4bf4-a535-e1fb509c83de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PluginSystem">
+      <UniqueIdentifier>{078604fd-ef85-49d6-bb28-d2ef9dbc8297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileService">
+      <UniqueIdentifier>{b321a8e6-40ff-42a6-83c1-d36f16afe046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileService\Json">
+      <UniqueIdentifier>{b8bb4cde-479c-4e01-84dc-0ec789b517d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileService\Json\internal">
+      <UniqueIdentifier>{2daed0e4-fece-4525-8f86-9e309358cc01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CollistionSystem\Colliders">
+      <UniqueIdentifier>{64ea02ac-cb2c-40ae-8a5b-bdec46a6d391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\MCocosDenshion">
+      <UniqueIdentifier>{29e317e4-0aa2-4ccf-934b-9b603c969b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\MCocosDenshion\Native">
+      <UniqueIdentifier>{167e29ca-2a05-42e9-859f-5b07683d176e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\MRichControls">
+      <UniqueIdentifier>{3833747d-d2ad-4026-8e61-9c321a3e4821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\MRichControls\Native">
+      <UniqueIdentifier>{9b738135-53e3-45f2-be40-b115459c68cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugs\MCocoStudio\Native\Scene">
+      <UniqueIdentifier>{df4025a9-0ba4-4987-b34a-ff60b8ce3548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{a5595925-c113-4062-b4b1-ade1def8983d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Android">
+      <UniqueIdentifier>{6e56f564-4776-43e2-8caa-5ba497f48b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Win32">
+      <UniqueIdentifier>{c6272b90-a024-49fa-9c42-bc1593cc8755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\IOS">
+      <UniqueIdentifier>{72db7721-165c-46d6-baa5-88609ff0aedd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\Native\ScriptBind_ActorSystem.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Native\ScriptBind_CollistionSystem.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Native\ScriptBind_System.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ActorSystem\ActorManager.cpp">
+      <Filter>ActorSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ActorSystem\GameActor.cpp">
+      <Filter>ActorSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Component\Component.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Component\ComponentContainer.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollistionSystem\Collider.cpp">
+      <Filter>CollistionSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollistionSystem\CollistionDebugDraw.cpp">
+      <Filter>CollistionSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollistionSystem\CollistionSystem.cpp">
+      <Filter>CollistionSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollistionSystem\Rigidbody.cpp">
+      <Filter>CollistionSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollistionSystem\BoxCollider.cpp">
+      <Filter>CollistionSystem\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\MCLayer.cpp">
+      <Filter>Plugs\MCocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\MCScene.cpp">
+      <Filter>Plugs\MCocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\MCScriptHelper.cpp">
+      <Filter>Plugs\MCocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCAction.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCDirector.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCFileUtils.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCLayer.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCNode.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCNodeRBGA.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCObject.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCParticleSystem.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCScene.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCSprite.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_EffectNode.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\EffectNode\GrayNode.cpp">
+      <Filter>Plugs\MCocos2d\EffectNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\EffectNode\ShaderNode.cpp">
+      <Filter>Plugs\MCocos2d\EffectNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\ArmatureContactListener.cpp">
+      <Filter>Plugs\MCocoStudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\MatrixCocoStudio.cpp">
+      <Filter>Plugs\MCocoStudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\MSUILayer.cpp">
+      <Filter>Plugs\MCocoStudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_CCArmAnim.cpp">
+      <Filter>Plugs\MCocoStudio\Native\Armature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_CCArmature.cpp">
+      <Filter>Plugs\MCocoStudio\Native\Armature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_CCArmDataManager.cpp">
+      <Filter>Plugs\MCocoStudio\Native\Armature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_CCBone.cpp">
+      <Filter>Plugs\MCocoStudio\Native\Armature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_GUIReader.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UIButton.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UICheckBox.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UIImageView.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UILabel.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UILabelAtlas.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UILabelBMFont.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UILayer.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UILayout.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UILayoutParameter.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UILoadingBar.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UISlider.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UITextField.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UIWidget.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UIListView.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI\ScrollWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UIPageView.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI\ScrollWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_UIScrollView.cpp">
+      <Filter>Plugs\MCocoStudio\Native\GUI\ScrollWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Mooger\MoogerAnim.cpp">
+      <Filter>Plugs\Mooger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Mooger\MoogerMap.cpp">
+      <Filter>Plugs\Mooger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Mooger\Native\ScriptBind_Mooger.cpp">
+      <Filter>Plugs\Mooger\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Math\Size.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MatrixScriptHelper.cpp" />
+    <ClCompile Include="..\Classes\MCocos2d\MCAction.cpp">
+      <Filter>Plugs\MCocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCLabel.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\MCScheduleNode.cpp">
+      <Filter>Plugs\MCocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_ScheduleNode.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PluginSystem\MatrixPlugin.cpp">
+      <Filter>PluginSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MatrixScript.cpp" />
+    <ClCompile Include="..\Classes\PluginSystem\PluginSystem.cpp">
+      <Filter>PluginSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PluginSystem\PluginManager.cpp">
+      <Filter>PluginSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Config\MatrixConfig.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FileService\JsonHelper.cpp">
+      <Filter>FileService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollistionSystem\CollistionListener.cpp">
+      <Filter>CollistionSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollistionSystem\Collistion.cpp">
+      <Filter>CollistionSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCProgressTimer.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocosDenshion\Native\ScriptBind_AudioEngine.cpp">
+      <Filter>Plugs\MCocosDenshion\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocosDenshion\MatrixCocosDenshion.cpp">
+      <Filter>Plugs\MCocosDenshion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MRichControls\MatrixRichControls.cpp">
+      <Filter>Plugs\MRichControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MRichControls\Native\ScriptBind_CCLabelHTML.cpp">
+      <Filter>Plugs\MRichControls\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MRichControls\Native\ScriptBind_FontCatalog.cpp">
+      <Filter>Plugs\MRichControls\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MRichControls\Native\ScriptBind_FontFactory.cpp">
+      <Filter>Plugs\MRichControls\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCTextureCache.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCTexture2D.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCSpriteFrameCache.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\Native\ScriptBind_SceneReader.cpp">
+      <Filter>Plugs\MCocoStudio\Native\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCScheduler.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\OBB.cpp">
+      <Filter>Plugs\MCocoStudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocoStudio\ArmatureCollistionSystem.cpp">
+      <Filter>Plugs\MCocoStudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Platform\Win32\NetHelper.cpp">
+      <Filter>Platform\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Native\ScriptBind_NetHelper.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Platform\Android\AndroidJNI.cpp">
+      <Filter>Platform\Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Platform\Android\NetHelper.cpp">
+      <Filter>Platform\Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Platform\Win32\SystemFeature.cpp">
+      <Filter>Platform\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Platform\Android\SystemFeature.cpp">
+      <Filter>Platform\Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Platform\Android\AndroidJNIHelper.cpp">
+      <Filter>Platform\Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCAnimation.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCSpriteFrame.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCAnimationFrame.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCSpriteBatchNode.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\Native\ScriptBind_CCClippingNode.cpp">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\MCActionInterval.cpp">
+      <Filter>Plugs\MCocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MCocos2d\MCActionInstant.cpp">
+      <Filter>Plugs\MCocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Platform\NativeBridge.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\Native\ScriptBind_ActorSystem.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Native\ScriptBind_CollistionSystem.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Native\ScriptBind_Matrix.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Native\ScriptBind_System.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ActorSystem\ActorManager.h">
+      <Filter>ActorSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ActorSystem\GameActor.h">
+      <Filter>ActorSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Component\Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Component\ComponentContainer.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollistionSystem\Collider.h">
+      <Filter>CollistionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollistionSystem\CollistionDebugDraw.h">
+      <Filter>CollistionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollistionSystem\CollistionSystem.h">
+      <Filter>CollistionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollistionSystem\Rigidbody.h">
+      <Filter>CollistionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollistionSystem\BoxCollider.h">
+      <Filter>CollistionSystem\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollistionSystem\CircleCollider.h">
+      <Filter>CollistionSystem\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Transform.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\MCLayer.h">
+      <Filter>Plugs\MCocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\MCScene.h">
+      <Filter>Plugs\MCocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\MCScriptHelper.h">
+      <Filter>Plugs\MCocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCAction.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCDirector.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCFileUtils.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCLayer.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCNode.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCNodeRBGA.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCObject.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCParticleSystem.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCScene.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCSprite.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_Cocos2d.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_EffectNode.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\EffectNode\GrayNode.h">
+      <Filter>Plugs\MCocos2d\EffectNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\EffectNode\ShaderNode.h">
+      <Filter>Plugs\MCocos2d\EffectNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\ArmatureContactListener.h">
+      <Filter>Plugs\MCocoStudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\MatrixCocoStudio.h">
+      <Filter>Plugs\MCocoStudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\MSUILayer.h">
+      <Filter>Plugs\MCocoStudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_CocoStudio.h">
+      <Filter>Plugs\MCocoStudio\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_CCArmAnim.h">
+      <Filter>Plugs\MCocoStudio\Native\Armature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_CCArmature.h">
+      <Filter>Plugs\MCocoStudio\Native\Armature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_CCArmDataManager.h">
+      <Filter>Plugs\MCocoStudio\Native\Armature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_CCBone.h">
+      <Filter>Plugs\MCocoStudio\Native\Armature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_CCDisplay.h">
+      <Filter>Plugs\MCocoStudio\Native\Armature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_GUIReader.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UIButton.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UICheckBox.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UIImageView.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UILabel.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UILabelAtlas.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UILabelBMFont.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UILayer.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UILayout.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UILayoutParameter.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UILoadingBar.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UISlider.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UITextField.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UIWidget.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UIListView.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI\ScrollWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UIPageView.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI\ScrollWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_UIScrollView.h">
+      <Filter>Plugs\MCocoStudio\Native\GUI\ScrollWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Mooger\MoogerAnim.h">
+      <Filter>Plugs\Mooger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Mooger\MoogerMap.h">
+      <Filter>Plugs\Mooger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Mooger\Native\ScriptBind_Mooger.h">
+      <Filter>Plugs\Mooger\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Math\Size.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MatrixScript.h" />
+    <ClInclude Include="..\Classes\MatrixScriptHelper.h" />
+    <ClInclude Include="..\Classes\MCocos2d\MCAction.h">
+      <Filter>Plugs\MCocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCLabel.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\MCScheduleNode.h">
+      <Filter>Plugs\MCocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_ScheduleNode.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MatrixExport.h" />
+    <ClInclude Include="..\Classes\PluginSystem\MatrixPlugin.h">
+      <Filter>PluginSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PluginSystem\PluginSystem.h">
+      <Filter>PluginSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PluginSystem\PluginManager.h">
+      <Filter>PluginSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileService\Json\document.h">
+      <Filter>FileService\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileService\Json\filestream.h">
+      <Filter>FileService\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileService\Json\prettywriter.h">
+      <Filter>FileService\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileService\Json\rapidjson.h">
+      <Filter>FileService\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileService\Json\reader.h">
+      <Filter>FileService\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileService\Json\stringbuffer.h">
+      <Filter>FileService\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileService\Json\writer.h">
+      <Filter>FileService\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileService\Json\internal\pow10.h">
+      <Filter>FileService\Json\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileService\Json\internal\stack.h">
+      <Filter>FileService\Json\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileService\Json\internal\strfunc.h">
+      <Filter>FileService\Json\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config\MatrixConfig.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileService\JsonHelper.h">
+      <Filter>FileService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollistionSystem\CollistionListener.h">
+      <Filter>CollistionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollistionSystem\Collistion.h">
+      <Filter>CollistionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCProgressTimer.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocosDenshion\Native\ScriptBind_AudioEngine.h">
+      <Filter>Plugs\MCocosDenshion\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocosDenshion\Native\ScriptBind_CocosDenshion.h">
+      <Filter>Plugs\MCocosDenshion\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocosDenshion\MatrixCocosDenshion.h">
+      <Filter>Plugs\MCocosDenshion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MRichControls\MatrixRichControls.h">
+      <Filter>Plugs\MRichControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MRichControls\Native\ScriptBind_RichControls.h">
+      <Filter>Plugs\MRichControls\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MRichControls\Native\ScriptBind_CCLabelHTML.h">
+      <Filter>Plugs\MRichControls\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MRichControls\Native\ScriptBind_FontCatalog.h">
+      <Filter>Plugs\MRichControls\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MRichControls\Native\ScriptBind_FontFactory.h">
+      <Filter>Plugs\MRichControls\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCTextureCache.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCTexture2D.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCSpriteFrameCache.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\Native\ScriptBind_SceneReader.h">
+      <Filter>Plugs\MCocoStudio\Native\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCScheduler.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\OBB.h">
+      <Filter>Plugs\MCocoStudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocoStudio\ArmatureCollistionSystem.h">
+      <Filter>Plugs\MCocoStudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Platform\NetHelper.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Native\ScriptBind_NetHelper.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Platform\Android\AndroidJNI.h">
+      <Filter>Platform\Android</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Platform\SystemFeature.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Platform\Android\AndroidJNIHelper.h">
+      <Filter>Platform\Android</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCAnimation.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCSpriteFrame.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCAnimationFrame.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCSpriteBatchNode.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\Native\ScriptBind_CCClippingNode.h">
+      <Filter>Plugs\MCocos2d\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\MCActionInterval.h">
+      <Filter>Plugs\MCocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MCocos2d\MCActionInstant.h">
+      <Filter>Plugs\MCocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Platform\NativeBridge.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Classes\ReadMe.txt" />
+  </ItemGroup>
+</Project>

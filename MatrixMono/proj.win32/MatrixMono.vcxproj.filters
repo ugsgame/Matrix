@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Mono">
+      <UniqueIdentifier>{b906bbad-9b1d-48e4-875c-4eda5a9f7ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{d888019b-b9c0-4952-8e83-b6aab94c0ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{f21ad4ce-a9b5-4e2d-82de-16c5f2f6c17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wrappers">
+      <UniqueIdentifier>{77b77269-a805-4ecf-bbb2-b2fbd7b3343b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\MonoScriptSystem.cpp">
+      <Filter>Mono</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScriptBind.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScriptDebug.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScriptUtility.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DynMonoArray.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonoArray.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonoAssembly.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonoClass.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonoConverter.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonoDomain.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonoObject.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MatrixMono.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Headers\IMonoArray.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\IMonoAssembly.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\IMonoClass.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\IMonoConverter.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\IMonoDomain.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\IMonoException.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\IMonoObject.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\IMonoScriptBind.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\IMonoScriptSystem.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MonoAPI.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MonoCommon.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MonoTypes.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScriptBind.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScriptDebug.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScriptUtility.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DynMonoArray.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonoArray.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonoAssembly.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonoClass.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonoConverter.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonoDomain.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonoException.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonoObject.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MatrixMono.h" />
+    <ClInclude Include="..\Classes\MonoHelpers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Classes\MonoScriptSystem.h">
+      <Filter>Mono</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
