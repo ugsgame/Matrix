@@ -1,0 +1,7 @@
+﻿
+还没修复的bug
+
+
+1.执行就立刻出错，没任何提示
+layout.SetBackGroundColorType(LayoutBackGroundColorType.LAYOUT_COLOR_GRADIENT);
+layout.SetBackGroundColorSE(new Color32(0xffff00),new Color32(0xffff00));

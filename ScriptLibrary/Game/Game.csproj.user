@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>E:\Dev\Matrix_v0.0.2\Build\win32\Debug\Matrix.exe</StartProgram>
+    <StartWorkingDirectory>E:\Dev\Matrix_v0.0.2\Matrix\Resources\</StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>E:\Dev\Matrix_v0.0.2\Build\win32\Release\Matrix.exe</StartProgram>
+    <StartWorkingDirectory>E:\Dev\Matrix_v0.0.2\Matrix\Resources\</StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_UnityDebuger|AnyCPU'">
+    <StartProgram>E:\Dev\Matrix_v0.0.2\Build\win32\Debug_UnityDebuger\Unity.Matrix.exe</StartProgram>
+    <StartWorkingDirectory>E:\Dev\Matrix_v0.0.2\Matrix\Resources\</StartWorkingDirectory>
+    <StartAction>Program</StartAction>
+  </PropertyGroup>
+</Project>

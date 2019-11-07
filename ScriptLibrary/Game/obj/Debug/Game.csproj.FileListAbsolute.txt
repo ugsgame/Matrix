@@ -1,0 +1,13 @@
+D:\Dev\Matrix_v0.0.2\ScriptLibrary\Game\bin\Debug\Game.dll
+D:\Dev\Matrix_v0.0.2\ScriptLibrary\Game\bin\Debug\Game.pdb
+D:\Dev\Matrix_v0.0.2\ScriptLibrary\Game\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\Matrix_v0.0.2\ScriptLibrary\Game\obj\Debug\Game.dll
+D:\Dev\Matrix_v0.0.2\ScriptLibrary\Game\obj\Debug\Game.pdb
+D:\Dev\Matrix_v0.0.2\Matrix\Resources\Script\Game.dll
+D:\Dev\Matrix_v0.0.2\Matrix\Resources\Script\Game.pdb
+E:\Dev\Matrix_v0.0.2\Matrix\Resources\Script\Game.dll.config
+E:\Dev\Matrix_v0.0.2\Matrix\Resources\Script\Game.dll
+E:\Dev\Matrix_v0.0.2\Matrix\Resources\Script\Game.pdb
+E:\Dev\Matrix_v0.0.2\ScriptLibrary\Game\obj\Debug\Game.dll
+E:\Dev\Matrix_v0.0.2\ScriptLibrary\Game\obj\Debug\Game.pdb
+E:\Dev\Matrix_v0.0.2\ScriptLibrary\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache

@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1DFE82E2-8913-43BD-AA5B-169B76C90512}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MatrixEngine</RootNamespace>
+    <AssemblyName>MatrixEngine</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <newfilesearch>OnLoad</newfilesearch>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>..\..\Matrix\Resources\Script\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CustomCommands>
+      <CustomCommands>
+        <Command type="Execute" command="..\..\Build\win32\Debug\Matrix.exe" workingdir="E:\Dev\Matrix_v0.0.2\Matrix\Resources" />
+      </CustomCommands>
+    </CustomCommands>
+    <ConsolePause>False</ConsolePause>
+    <Externalconsole>True</Externalconsole>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>..\..\Matrix\Resources\Script\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_0.0.3|AnyCPU'">
+    <DebugSymbols>True</DebugSymbols>
+    <OutputPath>bin\Debug_0.0.3\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>False</Optimize>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_0.0.3|AnyCPU'">
+    <OutputPath>bin\Release_0.0.3\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <Optimize>True</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_UnityDebuger|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Matrix\Resources\Script\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug_UnityDebugger|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug_UnityDebugger\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Cocos2d\CCAnimation.cs" />
+    <Compile Include="Cocos2d\CCAnimationFrame.cs" />
+    <Compile Include="Cocos2d\CCClippingNode.cs" />
+    <Compile Include="Cocos2d\CCLable.cs" />
+    <Compile Include="Cocos2d\CCAction.cs" />
+    <Compile Include="Cocos2d\CCDirector.cs" />
+    <Compile Include="Cocos2d\CCEffectNode.cs" />
+    <Compile Include="Cocos2d\CCFileUtils.cs" />
+    <Compile Include="Cocos2d\CCLayer.cs" />
+    <Compile Include="Cocos2d\CCNodeRGBA.cs" />
+    <Compile Include="Cocos2d\CCObject.cs" />
+    <Compile Include="Cocos2d\CCParticleSystem.cs" />
+    <Compile Include="Cocos2d\CCProgressTimer.cs" />
+    <Compile Include="Cocos2d\CCScene.cs" />
+    <Compile Include="Cocos2d\CCScheduler.cs" />
+    <Compile Include="Cocos2d\CCSet.cs" />
+    <Compile Include="Cocos2d\CCSprite.cs" />
+    <Compile Include="Cocos2d\CCSpriteBatchNode.cs" />
+    <Compile Include="Cocos2d\CCSpriteFrame.cs" />
+    <Compile Include="Cocos2d\CCSpriteFrameCache.cs" />
+    <Compile Include="Cocos2d\CCTexture2D.cs" />
+    <Compile Include="Cocos2d\CCTextureCache.cs" />
+    <Compile Include="Cocos2d\CCTouch.cs" />
+    <Compile Include="Cocos2d\CCType.cs" />
+    <Compile Include="Cocos2d\Native\NativeClasses.cs" />
+    <Compile Include="CocosDenshion\AudioEngine.cs" />
+    <Compile Include="CocoStudio\Scene\SceneReader.cs" />
+    <Compile Include="Engine\SystemInfoLayer.cs" />
+    <Compile Include="Platform\Android\AndroidJavaClass.cs" />
+    <Compile Include="Platform\Android\AndroidJavaException.cs" />
+    <Compile Include="Platform\Android\AndroidJavaObject.cs" />
+    <Compile Include="Platform\Android\AndroidJavaProxy.cs" />
+    <Compile Include="Platform\Android\AndroidJavaRunnable.cs" />
+    <Compile Include="Platform\Android\AndroidJNI.cs" />
+    <Compile Include="Platform\Android\AndroidJNIHelper.cs" />
+    <Compile Include="Platform\NetHelper.cs" />
+    <Compile Include="RichControls\CCLabelFT.cs" />
+    <Compile Include="RichControls\CCLabelHTML.cs" />
+    <Compile Include="CocosDenshion\Native\NativeClasses.cs" />
+    <Compile Include="CocoStudio\Armature\CCAnimation.cs" />
+    <Compile Include="CocoStudio\Armature\CCArmature.cs" />
+    <Compile Include="CocoStudio\Armature\CCArmDataManager.cs" />
+    <Compile Include="CocoStudio\Armature\CCBone.cs" />
+    <Compile Include="CocoStudio\Armature\CCColliderFilter.cs" />
+    <Compile Include="CocoStudio\Armature\CCDisplayData.cs" />
+    <Compile Include="CocoStudio\GUI\UIListView.cs" />
+    <Compile Include="CocoStudio\GUI\UIPageView.cs" />
+    <Compile Include="CocoStudio\GUI\UIScrollView.cs" />
+    <Compile Include="CocoStudio\GUI\UISlider.cs" />
+    <Compile Include="CocoStudio\GUI\UIButton.cs" />
+    <Compile Include="CocoStudio\GUI\UICheckBox.cs" />
+    <Compile Include="CocoStudio\GUI\UIImageView.cs" />
+    <Compile Include="CocoStudio\GUI\UILabel.cs" />
+    <Compile Include="CocoStudio\GUI\UILabelAtlas.cs" />
+    <Compile Include="CocoStudio\GUI\UILabelBMFont.cs" />
+    <Compile Include="CocoStudio\GUI\UILayer.cs" />
+    <Compile Include="CocoStudio\GUI\UILayout.cs" />
+    <Compile Include="CocoStudio\GUI\UILayoutParameter.cs" />
+    <Compile Include="CocoStudio\GUI\UILoadingBar.cs" />
+    <Compile Include="CocoStudio\GUI\UIReader.cs" />
+    <Compile Include="CocoStudio\GUI\UITextField.cs" />
+    <Compile Include="CocoStudio\GUI\UIWidget.cs" />
+    <Compile Include="CocoStudio\ICommon.cs" />
+    <Compile Include="CocoStudio\Native\NativeClasses.cs" />
+    <Compile Include="Engine\ActorBehavior.cs" />
+    <Compile Include="Engine\Archive.cs" />
+    <Compile Include="Engine\Collider.cs" />
+    <Compile Include="Engine\CollistionSystem.cs" />
+    <Compile Include="Engine\Component.cs" />
+    <Compile Include="Engine\Debug.cs" />
+    <Compile Include="Engine\MCAction.cs" />
+    <Compile Include="Engine\Rigidbody.cs" />
+    <Compile Include="Engine\System.cs" />
+    <Compile Include="LitJson\IJsonWrapper.cs" />
+    <Compile Include="LitJson\JsonData.cs" />
+    <Compile Include="LitJson\JsonException.cs" />
+    <Compile Include="LitJson\JsonMapper.cs" />
+    <Compile Include="LitJson\JsonReader.cs" />
+    <Compile Include="LitJson\JsonWriter.cs" />
+    <Compile Include="LitJson\Lexer.cs" />
+    <Compile Include="LitJson\ParserToken.cs" />
+    <Compile Include="Math\Color32.cs" />
+    <Compile Include="Math\ColorF.cs" />
+    <Compile Include="Math\MathHelper.cs" />
+    <Compile Include="Math\PackUtils.cs" />
+    <Compile Include="Math\Rect.cs" />
+    <Compile Include="Math\Size.cs" />
+    <Compile Include="Math\Vector2.cs" />
+    <Compile Include="Math\Vector3.cs" />
+    <Compile Include="Math\Vector4.cs" />
+    <Compile Include="Mooger\MoogerMap.cs" />
+    <Compile Include="Mooger\Native\NativeMooger.cs" />
+    <Compile Include="Native\Base.cs" />
+    <Compile Include="Cocos2d\CCNode.cs" />
+    <Compile Include="Native\NativeClasses.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Engine\ScriptManager.cs" />
+    <Compile Include="Engine\UserData.cs" />
+    <Compile Include="RichControls\FontCatalog.cs" />
+    <Compile Include="RichControls\FontFactory.cs" />
+    <Compile Include="RichControls\Native\NativeClasses.cs" />
+    <Compile Include="UniLua\ByteString.cs" />
+    <Compile Include="UniLua\Coder.cs" />
+    <Compile Include="UniLua\Common.cs" />
+    <Compile Include="UniLua\Do.cs" />
+    <Compile Include="UniLua\Dump.cs" />
+    <Compile Include="UniLua\LLex.cs" />
+    <Compile Include="UniLua\LuaAPI.cs" />
+    <Compile Include="UniLua\LuaAuxLib.cs" />
+    <Compile Include="UniLua\LuaBaseLib.cs" />
+    <Compile Include="UniLua\LuaBitLib.cs" />
+    <Compile Include="UniLua\LuaCoroLib.cs" />
+    <Compile Include="UniLua\LuaDebug.cs" />
+    <Compile Include="UniLua\LuaDebugLib.cs" />
+    <Compile Include="UniLua\LuaEncLib.cs" />
+    <Compile Include="UniLua\LuaFFILib.cs" />
+    <Compile Include="UniLua\LuaFile.cs" />
+    <Compile Include="UniLua\LuaFunc.cs" />
+    <Compile Include="UniLua\LuaIOLib.cs" />
+    <Compile Include="UniLua\LuaMathLib.cs" />
+    <Compile Include="UniLua\LuaObject.cs" />
+    <Compile Include="UniLua\LuaOsLib.cs" />
+    <Compile Include="UniLua\LuaPkgLib.cs" />
+    <Compile Include="UniLua\LuaState.cs" />
+    <Compile Include="UniLua\LuaStrLib.cs" />
+    <Compile Include="UniLua\LuaTable.cs" />
+    <Compile Include="UniLua\LuaTableLib.cs" />
+    <Compile Include="UniLua\OpCodes.cs" />
+    <Compile Include="UniLua\Parser.cs" />
+    <Compile Include="UniLua\TagMethod.cs" />
+    <Compile Include="UniLua\ULDebug.cs" />
+    <Compile Include="UniLua\Undump.cs" />
+    <Compile Include="UniLua\Util.cs" />
+    <Compile Include="UniLua\VM.cs" />
+    <Compile Include="Util\CppPtrUtil.cs" />
+    <Compile Include="Util\FilePathUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="System">
+      <HintPath>..\Mono\lib\mono\2.0\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\Mono\lib\mono\2.0\System.Core.dll</HintPath>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>..\Mono\lib\mono\2.0\System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <None Include="MatrixEngine.suo">
+      <Visible>False</Visible>
+    </None>
+    <None Include="问题%28打开时请更新，修改时请上传%29.xlsx" />
+    <None Include="app.config" />
+    <None Include="Bug.txt" />
+    <None Include="MatrixEngine.csproj.user" />
+    <None Include="MatrixEngine.v11.suo" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <PostBuildEvent>..\..\..\ScriptLibrary\MonoBleedingEdge\lib\mono\4.0\pdb2mdb.exe $(ProjectName).dll
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>
